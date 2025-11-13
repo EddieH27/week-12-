@@ -22,6 +22,21 @@ print(1 < x < 20)         # True
 # Practice Problems:
 
 # Write an expression that checks if a number is between 50 and 100 (inclusive).
+Grade = int(input("What is your grade?"))
+
+if 90 <= Grade >= 100:
+    print("You got an A!")
+if 80 <= Grade >= 89:
+    print("You got a B :)")
+if 70 <= Grade >= 79:
+    print('You got a C :(')
+if 60 < Grade < 70:
+    print("You got a D!!!")
+if Grade <=60:
+    print("YOU FAIL")
+
+
+
 
 # Write an expression that checks if a number is NOT equal to 0 and greater than 10.
 

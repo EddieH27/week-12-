@@ -30,11 +30,11 @@ list_of_fruits.remove('banana')
 list_of_fruits.insert(3, 'peach')
 list_of_fruits.sort()
 print(list_of_fruits)
-list_of_items = list(range(1, 1001))
-print(list_of_items)
-print(len(list_of_items))
+# list_of_items = list(range(1, 1001))
+# print(list_of_items)
+# print(len(list_of_items))
 
-
+# instead of creating separate variables for each item, we can store them in a list which makes managing the code easier, and also makes the complexity easier to follow with multiple items in the code.
 # Examples:
 
 # my_list = ['apple', 'banana', 'cherry']
@@ -55,13 +55,18 @@ print(len(list_of_items))
 # Practice Problems:
 
 # Create a list with 5 of your favorite foods.
-
+list_of_foods = ['pizza', 'tacos', 'hot dog', 'cheeseburger', 'tamales']
 # Print the second and last item.
+print(list_of_foods[-1])
+print(list_of_foods[-2])
 
 # Add a new item using .append().
-
+list_of_foods.append('pozole')
+print(list_of_foods)
 # Remove the first item using .pop(0).
+list_of_foods.pop(0)
 
 # Reverse your list using .reverse().
-
+list_of_foods.reverse()
+print(list_of_foods)
 # Create a list of 3 lists (matrix), and access the middle element.\
